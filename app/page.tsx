@@ -19,7 +19,7 @@ export default function Home() {
       if (!res.ok) throw new Error("Failed to fetch data");
       const data = await res.json();
       const teams = data.map((row: any) => {
-        const teamId = row["Team Id"] || row["team id"] || row["teamId"] || row["id"] || "";
+        const teamId = row["Team"] || row["team"] || row["team"] ||  "";
         const teamName = row["Team Name"] || row["team name"] || row["teamName"] || row["name"] || "";
         let totalScore = 0;
         for (let i = 1; i <= 15; i++) {
