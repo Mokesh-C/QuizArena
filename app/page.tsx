@@ -59,30 +59,18 @@ export default function Home() {
         />
         <div className="absolute inset-0  pointer-events-none" />
       </div>
-      {/* Top bar: sponsors left/right, title center */}
-      <div className="w-full max-w-7xl mx-auto flex items-center justify-between px-4 mb-8">
-        {/* Left sponsor */}
-        <div className="hidden md:flex flex-col items-start w-32">
-          <Image src="/remax.jpg" alt="Sponsor" width={120} height={120} className="object-contain rounded-md" />
-        </div>
+      {/* Top bar: title center */}
+      <div className="w-full max-w-7xl mx-auto flex items-center justify-center px-4 mb-8">
         {/* Center title */}
-        <div className="flex-1 flex justify-center">
+        <div className="flex justify-center">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-center tracking-tight drop-shadow-lg lg:hidden">
             <span className="block text-amber-900/60">Quiz Arena</span>
             <span className="block text-amber-900/60">Leaderboard</span>
           </h1>
         </div>
-        {/* Right sponsor */}
-        <div className="hidden md:flex flex-col items-end w-32">
-          <Image src="/remax.jpg" alt="Sponsor" width={120} height={120} className="object-contain rounded-md" />
-        </div>
       </div>
-      {/* Manual Refresh Button below right sponsor */}
+      {/* Manual Refresh Button */}
       <div className="w-full max-w-7xl mx-auto flex items-end justify-end px-4 mb-2">
-        <div className="hidden md:flex flex-col items-end w-32" style={{ visibility: 'hidden' }}>
-          {/* Placeholder for left alignment */}
-        </div>
-        <div className="flex-1" />
         <div className="flex flex-col items-end w-32">
           <button
             onClick={fetchTeams}
