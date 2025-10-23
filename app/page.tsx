@@ -106,12 +106,6 @@ export default function Home() {
             <div className="w-full text-center font-bold text-lg tracking-wide">KALAIVANAN R</div>
           </div>
         </div>
-        {/* Small Powered By Footer */}
-        <div className="mt-6 pt-4 border-t border-amber-700/30 w-full text-center">
-          <p className="text-sm text-amber-300/80">
-            Powered by <span className="font-semibold">QuizArena</span> • © Login 2025 
-          </p>
-        </div>
       </footer>
     </main>
   );
