@@ -43,7 +43,7 @@ export default function MindsCrownLeaderboard({ teams }: LeaderboardProps) {
                   borderBottom: "1px solid rgba(255, 140, 66, 0.45)",
                 }}
               >
-                <span className="text-[#f4ecd8] font-extrabold text-base sm:text-lg tracking-wide drop-shadow-md">Team {team.teamId}</span>
+                <span className="text-[#f4ecd8] font-extrabold text-base sm:text-lg tracking-wide drop-shadow-md" />
               </div>
 
               <div className="flex flex-col items-center w-full relative" style={{ zIndex: 3 }}>
@@ -87,7 +87,7 @@ export default function MindsCrownLeaderboard({ teams }: LeaderboardProps) {
                     borderBottom: "1px solid rgba(255, 140, 66, 0.45)",
                   }}
                 >
-                  <span className="text-[#f4ecd8] font-extrabold text-base sm:text-lg tracking-wide drop-shadow-md">Team {top3[1].teamId}</span>
+                  <span className="text-[#f4ecd8] font-extrabold text-base sm:text-lg tracking-wide drop-shadow-md" />
                 </div>
                 <div className="-mb-2 flex justify-center w-full relative" style={{ zIndex: 3 }}>
                   <span className="text-5xl drop-shadow-lg animate-bounce">👑</span>
@@ -118,7 +118,7 @@ export default function MindsCrownLeaderboard({ teams }: LeaderboardProps) {
                     borderBottom: "1px solid rgba(255, 140, 66, 0.45)",
                   }}
                 >
-                  <span className="text-[#f4ecd8] font-extrabold text-base sm:text-lg tracking-wide drop-shadow-md">Team {top3[0].teamId}</span>
+                  <span className="text-[#f4ecd8] font-extrabold text-base sm:text-lg tracking-wide drop-shadow-md" />
                 </div>
                 <div className="-mb-2 flex justify-center w-full relative" style={{ zIndex: 3 }}>
                   <span className="text-7xl drop-shadow-lg animate-bounce">👑</span>
@@ -149,7 +149,7 @@ export default function MindsCrownLeaderboard({ teams }: LeaderboardProps) {
                     borderBottom: "1px solid rgba(255, 140, 66, 0.45)",
                   }}
                 >
-                  <span className="text-[#f4ecd8] font-extrabold text-base sm:text-lg tracking-wide drop-shadow-md">Team {top3[2].teamId}</span>
+                  <span className="text-[#f4ecd8] font-extrabold text-base sm:text-lg tracking-wide drop-shadow-md" />
                 </div>
                 <div className="-mb-2 flex justify-center w-full relative" style={{ zIndex: 3 }}>
                   <span className="text-5xl drop-shadow-lg animate-bounce">👑</span>
@@ -186,9 +186,7 @@ export default function MindsCrownLeaderboard({ teams }: LeaderboardProps) {
               </span>
             </div>
 
-            <div className="w-20 sm:w-32 flex flex-col items-center justify-center">
-              <span className="text-sm sm:text-base font-semibold text-[#f4ecd8]/90 whitespace-nowrap">Team {team.teamId}</span>
-            </div>
+            <div className="w-20 sm:w-32 flex flex-col items-center justify-center" />
 
             <div className="flex-1 flex flex-col items-center justify-center px-1">
               <div className="font-bold text-[#f4ecd8] text-base sm:text-lg text-center truncate max-w-full">{team.teamName}</div>
